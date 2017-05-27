@@ -1,0 +1,19 @@
+{
+  "name": "react01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Smilen",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.1",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
