@@ -8,7 +8,7 @@ class Index extends React.Component {
 
     render() {
         return (
-            <div>About page</div>
+            <div><h1>About page</h1></div>
         )
     }
 }
