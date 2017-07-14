@@ -31,5 +31,12 @@ module.exports = {
 
     resolve:{
         extensions:['.css','.js','.jsx']
-    }
+    },
+
+    /*solve refresh, btn do note that the Webpack team recommends against using the dev server in production.*/
+    /*devServer: {
+        historyApiFallback: true,
+        contentBase: './',
+        hot: true
+    },*/
 }
