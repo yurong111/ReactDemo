@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Link} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
 
 class Index extends React.Component {
     constructor(props) {
@@ -36,4 +36,4 @@ class Index extends React.Component {
     }
 }
 
-export default Index;
+export default withRouter(Index);
